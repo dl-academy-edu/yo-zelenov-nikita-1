@@ -80,7 +80,8 @@
 }
 
 .link__info:hover{
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  background-color: #C29974;
+  border: none;
 }
 
 .container__text{
@@ -349,8 +350,10 @@
 }
 
 .middle__link:hover{
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  background-color: #C29974;
+  border: none;
 }
+
 .corporations{
   display: flex;
   padding-bottom: 90px;
@@ -409,22 +412,23 @@
 
 .list__link{
   width: 123px;
+  background-color: #000000;
+}
+
+.list__link:hover{
+  background-color: #C29974;
+  border: none;
 }
 
 .list__link-text{
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
   font-weight: 700;
   line-height: 22px;
   text-transform: uppercase;
   color: white;
-  background-color: #000000;
   padding: 9px 22px;
 }
 
-.list__link:hover{
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-}
 
 .container__contacts{
   max-width: 543px;
@@ -441,7 +445,6 @@
 }
 
 .list__contacts{
-  styleName: Title two;
   font-family: Montserrat, sans-serif;
   font-size: 38px;
   font-weight: 700;
@@ -470,9 +473,7 @@
 }
 
 .footer{
-  margin: auto;
   background-color: #434343;
-  height: 555px;
   margin-top: 155px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -480,12 +481,9 @@
 }
 
 .footer__main{
-  max-width: 1180px;
-  height: 355px;
-  padding: 100px 110px;
+  padding-top: 100px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .footer__navigation{
@@ -532,6 +530,7 @@
   padding: 9px 22px;
   background: #000000;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .footer__logo{
@@ -547,32 +546,64 @@
   height: 30px;
 }
 
-.footer__rating{
+.simple__rating{
+  position: relative;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.simple__rating::before{
+  content:"★★★★★";
+  display: block;
+}
+
+.simple__rating-iteams{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.simple__rating-iteam{
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+}
+
+.simple__rating-label{
+  flex: 0 0 20%;
+  height: 100%;
+  cursor: pointer;
+  color: #ffffff;
 }
 
 
+.simple__rating-label::before{
+  content:"★";
+  display: block;
+  transition: color 0.3s ease 0s;
+}
 
+.simple__rating-iteam:checked,
+.simple__rating-iteam:checked ~ .simple__rating-label{
+  color: #C29974;
 
+}
 
+.simple__rating-label:hover,
+.simple__rating-label:hover ~ .simple__rating-label,
+.simple__rating-label:checked ~ .simple__rating-label:hover{
+  color: #836E5B;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
