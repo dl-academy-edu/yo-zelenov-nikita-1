@@ -25,7 +25,7 @@ label{
 }
 
 .undotted {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header{
@@ -36,11 +36,20 @@ label{
   font-family: Open Sans;
 }
 
+
 .header__nav{
   display: flex;
 }
 .header__list{
   display: flex;
+}
+
+.header__list-item:hover{
+  opacity: 0.5;
+}
+
+.header__list-item:active{
+  opacity: 0.2;
 }
 
 .left {
@@ -49,6 +58,14 @@ label{
 
 .header__logo {
   margin-right: 60px;
+}
+
+.header__logo:hover{
+  opacity: 0.5;
+}
+
+.header__logo:active{
+  opacity: 0.2;
 }
 
 .header__list-link{
@@ -61,6 +78,7 @@ label{
   color: #1E0606;
   margin-right: 24px;
   line-height: 18px;
+  max-width: 100%;
 }
 
 .info{

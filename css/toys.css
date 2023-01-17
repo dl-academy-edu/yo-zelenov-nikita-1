@@ -85,7 +85,6 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #1E0606;
 }
 
 .numbers{
@@ -295,7 +294,9 @@ margin-right: 94px;
 .min:checked + .amount__label::before{
   content: "";
   position: absolute;
-  width: 80px;
+  margin-left: -19px;
+  margin-top: -6px;
+  width: 61px;
   height: 35px;
   background-color: #F3D0DB;
   background-image: url(../img/five.png);
@@ -306,6 +307,8 @@ margin-right: 94px;
 .medium:checked + .amount__label::before{
   content: "";
   position: absolute;
+  margin-left: -19px;
+  margin-top: -6px;
   width: 80px;
   height: 35px;
   background-color: #F3D0DB;
@@ -317,6 +320,8 @@ margin-right: 94px;
 .max:checked + .amount__label::before{
   content: "";
   position: absolute;
+  margin-left: -19px;
+  margin-top: -6px;
   width: 80px;
   height: 35px;
   background-color: #F3D0DB;
@@ -343,6 +348,11 @@ margin-right: 94px;
   border: none;
 }
 
+.button__amount:active{
+  background-color: #CFAF91;
+  border: none;
+}
+
 .products{
   display: flex;
   width: 1180px;
@@ -361,6 +371,14 @@ margin-right: 94px;
 .foto__products{
   width: 380px;
   height: 385px;
+}
+
+.foto__products:hover{
+  background-color: #E5EAF8;
+  max-width: 207px;
+  height: 207px;
+  justify-content: center;
+
 }
 
 .image__text{
@@ -447,6 +465,14 @@ margin-right: 94px;
   color: #ffffff;
 }
 
+.footer__words:hover{
+  opacity: 0.5;
+}
+
+.footer__words:active{
+  opacity: 0.2;
+}
+
 .footer__text{
   padding-bottom: 15px;
 }
@@ -465,6 +491,21 @@ margin-right: 94px;
   width: 299px;
   height: 40px;
   padding: 9px 15px;
+}
+
+.footer__input:hover{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:active{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:disable{
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
 }
 
 
@@ -490,6 +531,14 @@ margin-right: 94px;
   border-radius: 15px;
   width: 30px;
   height: 30px;
+}
+
+.footer__back:hover{
+  opacity: 0.5;
+}
+
+.footer__back:active{
+  opacity: 0.2;
 }
 
 .footer__inner{
@@ -570,6 +619,14 @@ margin-right: 94px;
   font-style: normal;
   line-height: 22px;
   color: #FFFFFF;
+}
+
+.footer__rating-text:hover{
+  text-decoration-line: underline;
+}
+
+.footer__rating-text:active{
+  text-decoration-line: underline;
 }
 
 .footer__text-center{

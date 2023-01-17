@@ -71,6 +71,8 @@
 .foto__products{
   width: 380px;
   height: 220px;
+  background-color: #ffffff;
+  display: flex;
 }
 
 .date{
@@ -92,6 +94,14 @@
   line-height: 31px;
   color: #1E0606;
   margin-top: 7px;
+}
+
+.products__header:hover{
+  text-decoration-line: underline;
+}
+
+.products__header:active{
+  text-decoration-line: underline;
 }
 
 .description{
@@ -168,6 +178,13 @@
 .footer__words{
   color: #ffffff;
 }
+.footer__words:hover{
+  opacity: 0.5;
+}
+
+.footer__words:active{
+  opacity: 0.2;
+}
 
 .footer__text{
   padding-bottom: 15px;
@@ -187,6 +204,21 @@
   width: 299px;
   height: 40px;
   padding: 9px 15px;
+}
+
+.footer__input:hover{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:active{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:disable{
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
 }
 
 
@@ -212,6 +244,14 @@
   border-radius: 15px;
   width: 30px;
   height: 30px;
+}
+
+.footer__back:hover{
+  opacity: 0.5;
+}
+
+.footer__back:active{
+  opacity: 0.2;
 }
 
 .footer__inner{
@@ -293,6 +333,15 @@
   line-height: 22px;
   color: #FFFFFF;
 }
+
+.footer__rating-text:hover{
+  text-decoration-line: underline;
+}
+
+.footer__rating-text:active{
+  text-decoration-line: underline;
+}
+
 
 .footer__text-center{
   margin-left: 135px;

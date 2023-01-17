@@ -21,11 +21,8 @@
   margin-top: 20px;
 }
 
-.banner__btn-hover{
-  background: rgba(30, 6, 6, 0.6);
-  width: 31px;
-  height: 3px;
-  border: none;
+.banner__btn:hover{
+  background: #725F5B;
 }
 
 .banner__btn{
@@ -84,6 +81,11 @@
   border: none;
 }
 
+.link__info:active{
+  background-color: #CFAF91;
+  border: none;
+}
+
 .container__text{
   background-color: #C29974;  
   padding: 11px;
@@ -129,6 +131,9 @@
   display: flex;
   align-items: center; 
   justify-content: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 270px;
 
 }
 
@@ -143,12 +148,29 @@
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
+.color__kids:hover{
+  text-decoration-line: underline;
+}
+
+.color__kids:active{
+  text-decoration-line: underline;
+}
+
 .category__list-shop{
   position: relative;
   background: #EADDD3;
   height: 270px;
-  width: 280px;
+  width: 100%;
   margin-right: 20px;
+}
+
+.background{
+  background-color: #ffffff;
+}
+
+.category__shop-photo{
+  margin-left: 36px;
+  margin-top: 15px;
 }
 
 .category__shop{
@@ -164,11 +186,20 @@
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
+.category__shop:hover{
+  text-decoration-line: underline;
+
+}
+
+.category__shop:active{
+  text-decoration-line: underline;
+}
+
 .category__list-toys{
   position: relative;
   background: #F8F2DA;
   height: 270px;
-  width: 280px;
+  width: 100%;
   margin-right: 20px;
 }
 
@@ -184,11 +215,19 @@
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
+.category__toys:hover{
+  text-decoration-line: underline;
+}
+
+.category__toys:active{
+  text-decoration-line: underline;
+}
+
 .category__list-ded{
   position: relative;
   background: #D5D4E1;
   height: 270px;
-  width: 280px;
+  width: 100%;
 }
 
 .category__list-photo{
@@ -207,10 +246,17 @@
   text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
+.category__accessories:hover{
+  text-decoration-line: underline;
+}
+
+.category__accessories:active{
+  text-decoration-line: underline;
+}
+
 .modern{
   font-family: 'Open Sans', sans-serif;
-  width: 650px;
-  height: 44px;
+  max-width: 650px;
   color: #1E0606;
   padding-left: 100px;
   margin-top: -38px;
@@ -361,13 +407,20 @@
   margin: 0 5px;
 }
 
+.item:hover{
+  opacity: 0.5;
+}
+
+.item:active{
+  opacity: 0.2;
+}
+
 .container__maps{
   display: flex;
 }
 
 .background{
   background-color: #E1F0F7;
-  height: 228px;
 }
 
 .container__design{
@@ -378,7 +431,6 @@
 }
 
 .list__title{
-  styleName: Title two;
   font-family: Montserrat, sans-serif;
   font-size: 38px;
   font-weight: 700;
@@ -398,7 +450,7 @@
 }
 
 .list__text{
-  width: 483px;
+  max-width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -409,12 +461,7 @@
 
 .list__link{
   width: 123px;
-  background-color: #000000;
-}
-
-.list__link:hover{
-  background-color: #C29974;
-  border: none;
+  text-transform: uppercase;
 }
 
 .list__link-text{
@@ -428,7 +475,7 @@
 
 
 .container__contacts{
-  max-width: 543px;
+  max-width: 100%;
   height: 209px;
   background-color: #E1F0F7;
   margin-left: 57px;
@@ -451,18 +498,16 @@
 }
 
 .list__description{
-  width: 483px;
+  max-width: 100%;
   font-family: "Open Sans" sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 22px;
-  text-align: left;
   padding-bottom: 30px;
 }
 
 .maps{
   height: 196px;
-  width: 483px;
+  max-width: 100%;
 }
 
 .form__button{
@@ -504,10 +549,19 @@
 
 .footer__text{
   padding-bottom: 15px;
+  
+}
+
+.footer__words:hover{
+  opacity: 0.5;
+}
+
+.footer__words:active{
+  opacity: 0.2;
 }
 
 .input{
-  max-width: 370px;
+  max-width: 100%;
 }
 
 .input__email{
@@ -522,9 +576,24 @@
   padding: 9px 15px;
 }
 
+.footer__input:hover{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:active{
+  background: #FFFFFF;
+  border: 1px solid #C29974;
+}
+
+.footer__input:disable{
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+}
+
 
 .footer__link{
-  width: 81px;
+  max-width: 100%;
   padding: 9px 22px;
   background: #000000;
   color: #ffffff;
@@ -547,10 +616,18 @@
   height: 30px;
 }
 
+.footer__back:hover{
+  opacity: 0.5;
+}
+
+.footer__back:active{
+  opacity: 0.2;
+}
+
 .footer__inner{
   display: flex;
   border-top: 1px solid #666666;
-  width: 1150px;
+  max-width: 100%;
   margin-top: 28px;
   padding-bottom: 100px;
 }
@@ -574,7 +651,7 @@
 
 .simple__rating-iteams{
   position: absolute;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -627,6 +704,14 @@
   color: #FFFFFF;
 }
 
+.footer__rating-text:hover{
+  text-decoration-line: underline;
+}
+
+.footer__rating-text:active{
+  text-decoration-line: underline;
+}
+
 .footer__text-center{
   margin-left: 135px;
   margin-top: 26px;
@@ -647,7 +732,7 @@
 
 .form{
   background-color: #E5EAF8;
-  max-width: 680px;
+  max-width: 100%;
   padding: 42px 40px;
 }
 
@@ -719,7 +804,7 @@
   content: "";
   cursor: pointer;
   position: absolute;
-  width: 16px;
+  max-width: 100%;
   height: 16px;
   border: 2px solid #C29974;
   border-radius: 3px;
@@ -729,7 +814,7 @@
   content: "";
   cursor: pointer;
   position: absolute;
-  width: 16px;
+  max-width: 100%;
   height: 16px;
   background-image: url(../img/vector.png);
   justify-content: center;
@@ -744,7 +829,7 @@
   border: none;
   background-color: #000000;
   padding: 9px 22px;
-  max-width: 106px;
+  max-width: 100%;
 }
 
 .button__amount:hover{
