@@ -198,22 +198,25 @@
   display: flex;
 }
 
+.footer__input::placeholder{
+  color: #EBEBEB;
+}
+
 .footer__input{
   background: #666666;
-  color: #EBEBEB;
   width: 299px;
   height: 40px;
   padding: 9px 15px;
 }
 
 .footer__input:hover{
-  background: #FFFFFF;
-  border: 1px solid #C29974;
+  background: #666666;
+  border: 1px solid #FFFDFD;
 }
 
 .footer__input:active{
-  background: #FFFFFF;
-  border: 1px solid #C29974;
+  background: #666666;
+  border: 1px solid #FFFDFD;
 }
 
 .footer__input:disable{

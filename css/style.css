@@ -309,7 +309,7 @@
 }
 
 .middle__heading{
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 38px;
   line-height: 46px;
   text-transform: uppercase;
@@ -428,6 +428,7 @@
   flex-direction: column;
   padding-left: 30px;
   margin-top: -26px;
+  width: 543px;
 }
 
 .list__title{
@@ -486,6 +487,7 @@
   flex-direction: column;
   padding-left: 30px;
   margin-top: -26px;
+  width: 543px;
 }
 
 .list__contacts{
@@ -499,7 +501,7 @@
 
 .list__description{
   max-width: 100%;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 22px;
   padding-bottom: 30px;
@@ -568,22 +570,25 @@
   display: flex;
 }
 
+.footer__input::placeholder{
+  color: #EBEBEB;
+}
+
 .footer__input{
   background: #666666;
-  color: #EBEBEB;
   width: 299px;
   height: 40px;
   padding: 9px 15px;
 }
 
 .footer__input:hover{
-  background: #FFFFFF;
-  border: 1px solid #C29974;
+  background: #666666;
+  border: 1px solid #FFFDFD;
 }
 
 .footer__input:active{
-  background: #FFFFFF;
-  border: 1px solid #C29974;
+  background: #666666;
+  border: 1px solid #FFFDFD;
 }
 
 .footer__input:disable{
@@ -725,7 +730,7 @@
 
 .popup{
   position: absolute;
-  top: 113px;
+  top: 114px;
   left: 360px;
   display: none;
 }
@@ -804,7 +809,7 @@
   content: "";
   cursor: pointer;
   position: absolute;
-  max-width: 100%;
+  width: 16px;
   height: 16px;
   border: 2px solid #C29974;
   border-radius: 3px;
@@ -814,7 +819,7 @@
   content: "";
   cursor: pointer;
   position: absolute;
-  max-width: 100%;
+  width: 16px;
   height: 16px;
   background-image: url(../img/vector.png);
   justify-content: center;
@@ -822,20 +827,13 @@
   }
 
 .button__amount{
-  color: white;
+  color: #E1E1E1;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 22px;
   border: none;
-  background-color: #000000;
+  background-color: #C1C1C1;
   padding: 9px 22px;
   max-width: 100%;
 }
-
-.button__amount:hover{
-  background-color: #C29974;
-  border: none;
-}
-
-
 
