@@ -99,6 +99,7 @@
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .container__things{
@@ -579,6 +580,7 @@
   width: 299px;
   height: 40px;
   padding: 9px 15px;
+  border: none;
 }
 
 .footer__input:hover{
@@ -586,10 +588,6 @@
   border: 1px solid #FFFDFD;
 }
 
-.footer__input:active{
-  background: #666666;
-  border: 1px solid #FFFDFD;
-}
 
 .footer__input:disable{
   background: #FFFFFF;
