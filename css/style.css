@@ -132,8 +132,8 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  background-color: #ffffff;
-  width: 100%;
+  background: #445;
+  width: 280px;
   height: 270px;
 
 }
@@ -159,9 +159,10 @@
 
 .category__list-shop{
   position: relative;
-  background: #EADDD3;
+  background-color: #EADDD3;\
+  background: #445;
   height: 270px;
-  width: 100%;
+  width: 270px;
   margin-right: 20px;
 }
 
@@ -200,7 +201,7 @@
   position: relative;
   background: #F8F2DA;
   height: 270px;
-  width: 100%;
+  width: 270px;
   margin-right: 20px;
 }
 
@@ -228,7 +229,7 @@
   position: relative;
   background: #D5D4E1;
   height: 270px;
-  width: 100%;
+  width: 270px;
 }
 
 .category__list-photo{
@@ -736,7 +737,8 @@
 .form{
   background-color: #E5EAF8;
   max-width: 100%;
-  padding: 42px 40px;
+  z-index: 10;
+  padding: 42px 40px
 }
 
 .column__two-input{
@@ -754,7 +756,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 16px;
   color: #1E0606;
   margin-bottom: 3px;
 }
@@ -834,4 +836,6 @@
   padding: 9px 22px;
   max-width: 100%;
 }
+
+
 

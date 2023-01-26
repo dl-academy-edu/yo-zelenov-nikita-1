@@ -122,9 +122,18 @@ label{
 }
 
 .close {
-  background: none;
+  background: #000000;
   width: 20px;
   height: 20px;
   border: none;
   background-repeat: no-repeat;
-  background-image: url('../img/close.png');
+  background-image: url('../icon/cls.svg');
+}
+
+.close:hover {
+  opacity: 0.5;
+}
+
+.close:active {
+  opacity: 0.2;
+}
