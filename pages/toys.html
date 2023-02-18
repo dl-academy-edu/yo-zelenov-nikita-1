@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/toys.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Toys</title>
+</head>
+<body>
+  <header class="header container">
+    <a class="header__link" href="#">
+      <img class="header__logo" src="../icon/logo.svg" alt="logo" width="100.08" height="52">
+    </a>
+    <nav class="header__nav left">
+      <ul class="header__list header__contact">
+        <li class="header__list-item undotted"><a class="header__list-link" href="../pages/blog.html">Blog</a></li>
+        <li class="header__list-item undotted"><a class="header__list-link" href="../pages/catalog.html">Catalog</a></li>
+        <li class="header__list-item undotted"><a class="header__list-link" href="#">About Us</a></li>
+      </ul>
+    </nav>
+    <ul class="header__list header__contact">
+      <li class="header__list-item header__contact-item undotted"><img class="info__search" src="../icon/glass.svg" alt="Glass" tabindex="0"></li>
+      <li class="header__list-item header__contact-item undotted"><a class="info" href="../pages/contact.html">Contact  Us</a></li>
+    </ul>
+  </header>
+  <main>
+    <h1 class="container title">Toy for kids</h1>
+    <ul class="container header__title">
+      <li><button class="header__button" name="button">Home</button></li>
+      <li><button class="arrow" name="button"><img src="../icon/arrow.svg" alt=" to the right"></button></li>
+      <li><button class="header__button" name="button">Catalog</button ></li>
+      <li><button class="arrow" name="button"><img src="../icon/arrow.svg" alt=" to the right"></button></li>
+      <li><botton class="header__button-click" name="button" tabindex="0">Toys</botton></li>
+    </ul>
+    <form class="form" method="post" action="">
+      <div class="container form__section">
+        <div class="form__range">
+          <label class="form__label-cost" for="start">Cost</label>
+          <input class="form__input" type="range" name="" id="start" min="0" max="50">
+          <div class="numbers">
+            <p class="numbers__left">0</p>
+            <p class="numbers__right">500</p>
+          </div>
+        </div>
+        <div class="form__colour">
+          <p class="form__label-color">Color</p>
+          <div class="form__colour-title">
+            <input class="form__colour-input" type="checkbox" id="black" name="cost" value="black">
+            <label class="form__color-label" for="black"><p class="color__text">Black</p></label>
+          </div>
+          <div class="form__colour-title">
+            <input class="form__colour-input" type="checkbox" id="blue" name="cost" value="blue">
+            <label class="form__color-label" for="blue"><p class="color__text">Blue</p></label>
+          </div>
+          <div class="form__colour-title">
+            <input class="form__colour-input" type="checkbox" id="green" name="cost" value="green">
+            <label class="form__color-label" for="green"><p class="color__text">Green</p></label>
+          </div>
+          <div class="form__colour-title">
+            <input class="form__colour-input" type="checkbox" id="white" name="cost" value="white">
+            <label class="form__color-label" for="white"><p class="color__text">White</p></label>
+          </div>
+        </div>
+        <div class="form__delivery">
+          <p class="form__label-delivery">Delivery</p>
+          <div class="form__colour-title">
+            <input class="input__delivery" type="radio" name="Delivery" value="1" id="free">
+            <label class="label__delivery" for="free"><p class="delivery__text">Free shipping</p></label>
+          </div>
+          <div class="form__colour-title">
+            <input class="input__delivery" type="radio" name="Delivery" value="2" id="fastship">
+            <label class="label__delivery" for="fastship"><p class="delivery__text">Fast shipping</p></label>
+          </div>
+        </div>
+        <p class="title__amount">Amount</p>
+        <div class="amount">
+          <div class="amount__form">
+            <input class="amount__input min" type="radio" name="radio" value="1" id="min">
+            <label class="amount__label" for="min">0-5</label>
+          </div>
+          <div class="amount__form">
+            <input class="amount__input medium" type="radio" name="radio" value="2" id="medium">
+            <label class="amount__label" for="medium">10-20</label>
+          </div>
+          <div class="amount__form">
+            <input class="amount__input max" class="" type="radio" name="radio" value="3" id="max">
+            <label class="amount__label" for="max">20-50</label>
+          </div>
+        </div>
+        <input class="button__amount" type="button" name="button" value="APPLY">
+      </div>
+    </form>
+    <section class=" container">
+      <ul class="container products">
+        <li class="products__section">
+          <a class="foto__products" href="#"><img src="../img/case.png" alt="SHARKY BEAN BAG CHAIR COVER"></a>
+          <p class="image__text">SHARKY BEAN BAG CHAIR COVER</p>
+          <p class="price">$60.00 USD</p>
+        </li>
+        <li class="products__section">
+          <a class="foto__products" href="#"><img src="../img/gumballmachine.png" alt="GATCHA GATCHA GUMBALL MACHINE"></a>
+          <p class="image__text">GATCHA GATCHA GUMBALL MACHINE</p>
+          <p class="price">$56.00 USD</p>
+        </li>
+        <li class="products__section">
+          <a class="foto__products" href="#"><img src="../img/frame.png" alt="BRASS DECO FRAMES"></a>
+          <p class="image__text">BRASS DECO FRAMES</p>
+          <p class="price">$66.00 USD</p>
+        </li>
+        <li class="products__section">
+          <a class="foto__products" href="#"><img src="../img/candle.png" alt="CHRISTMAS ADVENT SCENTED CANDLE"></a>
+          <p class="image__text">CHRISTMAS ADVENT SCENTED CANDLE</p>
+          <p class="price">$56.00 USD</p>
+        </li>
+        <li class="products__section">
+          <a class="foto__products"href="#"><img src="../img/apron.png" alt="CIBO FULL APRON"></a>
+          <p class="image__text">CIBO FULL APRON</p>
+          <p class="price">$60.00 USD</p>
+        </li>
+        <li class="products__section">
+          <a class="foto__products" href="#"><img src="../img/teacandle.png" alt="TANGLE SPINNING TEA LIGHT"></a>
+          <p class="image__text">TANGLE SPINNING TEA LIGHT</p>
+          <p class="price">$56.00 USD</p>
+        </li>
+      </ul>
+      <ul class="container page__number">
+        <li><img class="img__arrow" src="../icon/left.png" alt=""></li>
+        <div class="page__arrow">
+          <li><button class="button__section" name="button">1</button></li>
+          <li><button class="button__section" name="button">2</button></li>
+          <li><button class="button__section" name="button">3</button></li>
+          <li><button class="button__section" name="button">4</button></li>
+        </div>
+        <li><img class="img__arrow" src="../icon/right.png" alt=""></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__main">
+      <nav class="footer__navigation">
+        <p class="footer__navigation-top">Navigation</p>
+        <ul>
+          <li class="footer__text"><a class="footer__words" href="#">About Us</a></li>
+          <li class="footer__text"><a class="footer__words" href="../pages/blog.html">Blog</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Design Services</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Featured On</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">2018 Holiday Catalog</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Shop By Designer</a></li>  
+        </ul>
+      </nav>
+      <nav class="footer__navigation">
+        <p class="footer__navigation-top">Customer Information</p>
+        <ul>
+          <li class="footer__text"><a class="footer__words" href="../pages/contact.html">Contact Us</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Sale Exclusions</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Shipping & Returns</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Terms & PConditions</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Privacy Policy</a></li>
+          <li class="footer__text"><a class="footer__words" href="#">Search</a></li>
+        </ul>
+      </nav>
+      <div class="footer__navigation">
+        <div class="input">
+          <p class="footer__navigation-top">Connect</p>
+          <div class="input__email">
+            <input class="footer__input" type="email" name="text" placeholder="Email" >
+            <a class="footer__link" href="#">Join</a>
+          </div>
+        </div>
+        <div>
+          <ul class="footer__logo">
+            <li class="footer__back"><img class="footer__back-icon" src="../icon/facebook.svg" alt="facebook logo"></li>
+            <li class="footer__back"><img class="footer__back-icon" src="../icon/twitter.svg" alt="twitter logo"></li>
+            <li class="footer__back"><img class="footer__back-icon" src="../icon/pinterest.svg" alt="pinterest logo"></li>
+            <li class="footer__back"><img class="footer__back-icon" src="../icon/instagram.svg" alt="instagram logo"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__inner">
+        <div class="footer__rating"> 
+          <form action="#" class="form__rating">
+            <div class="form__iteam">
+              <div class="form__label footer__rating-text">Company Rating</div>
+              <div class="simple__rating">
+                <div class="simple__rating-iteams">
+                  <input type="radio" id="simple__rating-5" class="simple__rating-iteam" name="simple__rating" value="5">
+                  <label for="simple__rating-5" class="simple__rating-label"></label>
+                  <input type="radio" id="simple__rating-4" class="simple__rating-iteam" name="simple__rating" value="4">
+                  <label for="simple__rating-4" class="simple__rating-label"></label>
+                  <input type="radio" id="simple__rating-3" class="simple__rating-iteam" name="simple__rating" value="3">
+                  <label for="simple__rating-3" class="simple__rating-label"></label>
+                  <input type="radio" id="simple__rating-2" class="simple__rating-iteam" name="simple__rating" value="2">
+                  <label for="simple__rating-2" class="simple__rating-label"></label>
+                  <input type="radio" id="simple__rating-1" class="simple__rating-iteam" name="simple__rating" value="1">
+                  <label for="simple__rating-1" class="simple__rating-label"></label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="footer__rating-text footer__text-center">
+          <p>Copyright © 2018 Dlk • Design Life Kids</p>
+        </div>
+        <div class="footer__rating-text footer__text-right">
+          <p>Web Design — Direct Line Development</p>
+        </div>
+      </div>
+    <div>
+  </footer>
+</body>
+</html>
+
+
